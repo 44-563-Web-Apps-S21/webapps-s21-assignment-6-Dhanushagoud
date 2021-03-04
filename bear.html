@@ -16,6 +16,8 @@
 <h2>Dhanusha Dommati builds a bear</h2>
 
 <form>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
     <input type="checkbox" id="hat" name="hat"   
       value="hat" >
     <label for="hat">hat</label></br>
@@ -27,11 +29,15 @@
     <input type="checkbox" id="shirt" name="shirt"   
        value="shirt" >
     <label for="shirt">shirt</label></br>
+    </div>
+    <div>
 
     <input type="button" onclick="startbear()" value="Start a bear">
   </form>
 
   <form>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
     <label for="property">Enter a property</label>
     <input type ="text" id="property" name="property" value="color"> 
     </br>
@@ -41,6 +47,8 @@
     </br>
 
     <input type="button" onclick="updatebear()" value="Update the bear">
+    </div>
+    </div>
 
 </form>
 <p id="result">This text will be replaced </p>
